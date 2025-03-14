@@ -1,0 +1,92 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palestine: A Journey Through History</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #114B5F;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 24px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #1A936F;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 5px;
+            background-color: #88D498;
+            border-radius: 5px;
+        }
+        nav a:hover {
+            background-color: #F3E9D2;
+            color: black;
+        }
+        .container {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        .section {
+            background-color: white;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #114B5F;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Palestine: A Journey Through History
+    </header>
+    <nav>
+        <a href="#goal">Goal</a>
+        <a href="#history">History</a>
+        <a href="#research">Research</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <div id="goal" class="section">
+            <h2>Project Goal</h2>
+            <p>The goal of this project is to educate about the history of Palestine from the Canaanites to the present day. Through a book, an informational board, and this website, we aim to provide an engaging and informative resource.</p>
+        </div>
+        <div id="history" class="section">
+            <h2>History of Palestine</h2>
+            <p>From ancient civilizations like the Canaanites to the modern struggle for identity, Palestine has a rich and complex history. The timeline covers key events including the Islamic period, Ottoman rule, British Mandate, Nakba, and modern resistance.</p>
+        </div>
+        <div id="research" class="section">
+            <h2>Research & Sources</h2>
+            <p>The information provided is based on historical texts, academic research, expert interviews, and primary sources. Our goal is to ensure an accurate and well-rounded understanding of Palestinian history.</p>
+        </div>
+        <div id="contact" class="section">
+            <h2>Contact & Feedback</h2>
+            <p>If you have feedback or would like to contribute, please reach out via email.</p>
+        </div>
+    </div>
+    <footer>
+        &copy; 2024 Palestine History Project
+    </footer>
+</body>
+</html>
